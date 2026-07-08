@@ -1,0 +1,10 @@
+{
+  "name": "pokemon-api-demo",
+  "version": "1.0.0",
+  "description": "Demo em Node.js com dados de Pokémon e funções utilitárias de busca/filtragem",
+  "main": "src/pokemon.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT"
+}
