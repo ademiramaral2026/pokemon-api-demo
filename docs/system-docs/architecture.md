@@ -80,6 +80,27 @@ Passos sugeridos para essa evolução:
 4. Adicionar testes de integração HTTP (ex.: com `supertest`) sem remover os testes unitários
    existentes em `tests/pokemon.test.js`.
 
+## Estrutura de documentação do repositório
+
+A pasta `docs/` é organizada por audiência e tipo de conteúdo, não por feature. Isso mantém
+material de referência de mecânica de jogo (`wiki/`) separado de material processual
+(`work-instructions/`) e de material técnico sobre o próprio código (`system-docs/`).
+
+| Pasta | Público-alvo | Tipo de conteúdo |
+|---|---|---|
+| `docs/wiki/` | Jogadores / consulta geral | Referência de mecânicas do jogo (tipos, abilities, status, clima, etc.) |
+| `docs/manuals/` | Jogadores avançados | Guias extensos de sistemas complexos (batalha, contests, raids) |
+| `docs/work-instructions/` | Qualquer usuário | Procedimentos passo a passo (`WI-00X`), formato objetivo e numerado |
+| `docs/system-docs/` | Desenvolvedores | Documentação técnica do código e da infraestrutura do projeto |
+| `docs/changelogs/` | Desenvolvedores | Histórico de mudanças do repositório |
+
+![Pikachu](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png)
+
+> **Nota de manutenção:** ao adicionar um novo Work Instruction, siga a numeração sequencial
+> `WI-00X-nome-descritivo.md` (não reutilize números de WIs existentes) e sempre referencie o
+> manual relacionado na tabela de metadados do topo do arquivo, para manter a navegabilidade
+> cruzada entre `manuals/` e `work-instructions/`.
+
 ## Ver também
 
 - [Data Schema](./data-schema.md)

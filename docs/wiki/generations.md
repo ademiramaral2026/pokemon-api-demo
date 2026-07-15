@@ -84,3 +84,23 @@ National Pokédex ([PokeAPI `/generation`](https://pokeapi.co/api/v2/generation/
 
 > Todos os 10 Pokémon usados no dataset deste projeto (`src/pokemon.js`) pertencem à
 > **Geração I (Kanto)**.
+
+## Mecânicas de batalha assinatura por geração
+
+Cada geração, a partir da III, introduziu uma mecânica de batalha "gimmick" que passou a
+diferenciar aquele conjunto de jogos. Várias delas têm documentação dedicada nesta wiki.
+
+| Geração | Mecânica assinatura | Ainda ativa nos jogos atuais? | Documentação |
+|---|---|---|---|
+| III | Abilities, Natures, Contests | Sim (Abilities/Natures) | [`abilities.md`](./abilities.md) |
+| VI | Mega Evolution | Não (removida na prática desde Gen VIII, exceto Let's Go/spin-offs) | [`mega-evolution.md`](./mega-evolution.md) |
+| VII | Z-Moves | Não (substituída por Dynamax na Gen VIII) | [`z-moves.md`](./z-moves.md) |
+| VIII | Dynamax / Gigantamax | Não (removida na Gen IX) | [`dynamax-gigantamax.md`](./dynamax-gigantamax.md) |
+| IX | Terastallization | Sim (mecânica atual, Scarlet/Violet) | — |
+
+![Charizard](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png)
+
+> Charizard é um exemplo raro de Pokémon que teve variações em praticamente todas essas
+> mecânicas assinatura: duas Mega Evoluções (X e Y), um Z-Move compatível (Fire-type Z-Moves)
+> e uma forma Gigantamax própria (G-Max Wildfire). Veja
+> [`mega-evolution.md`](./mega-evolution.md) e [`dynamax-gigantamax.md`](./dynamax-gigantamax.md).
