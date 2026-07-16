@@ -64,3 +64,5 @@ Documentação técnica completa em [`docs/`](./docs), organizada em quatro cate
 - Node.js 18+
 
 <!-- teste change control -->
+
+<!-- novo teste change control - 2026-07-16 -->
