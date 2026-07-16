@@ -62,3 +62,5 @@ Documentação técnica completa em [`docs/`](./docs), organizada em quatro cate
 ## Requisitos
 
 - Node.js 18+
+
+<!-- teste change control -->
