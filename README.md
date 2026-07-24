@@ -70,3 +70,5 @@ Documentação técnica completa em [`docs/`](./docs), organizada em quatro cate
 <!-- teste com novo user de integracao -->
 
 Teste change control - 2026-07-22 08:49:08
+
+Teste change control - 2026-07-24 16:12:38
