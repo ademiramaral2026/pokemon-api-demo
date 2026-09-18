@@ -1,6 +1,6 @@
 # Pokémon API Demo
 
-Projeto de demonstração em Node.js com uma pequena "API" de dados de Pokémon em memória, incluindo funções utilitárias de busca e filtragem.
+Projeto de demonstração  em Node.js com uma pequena "API" de dados de Pokémon em memória, incluindo funções utilitárias de busca e filtragem.
 
 ## Estrutura
 
